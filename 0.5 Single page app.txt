@@ -1,0 +1,4 @@
+0.5: Single page app
+Ip Adress->Server: Request to go to the website https://fullstack-exampleapp.herokuapp.com/spa.
+note right of Server: Server finds the dns credentials 
+Server->Ip Adress: Sends data/files to load the page 

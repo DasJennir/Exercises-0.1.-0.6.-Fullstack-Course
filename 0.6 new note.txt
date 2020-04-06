@@ -1,0 +1,8 @@
+title 0.6: new note
+
+UserInput/Website->Server: Sends request to send data
+Server: Serve recives data  HTTP POST "Hello World"
+Server->Website: HTTP status code 302 asks the browser to do a new HTTP GET 
+Website: Browser reloads the Notes page. 
+Website:fetching the style sheet (main.css), the JavaScript code (main.js), and the raw data of the notes (data.json).
+Now page display "Hello World".
